@@ -8,7 +8,7 @@ display: flex ;
 margin:0 5% 0 auto ;
 & > button , & > p , & > div {
     margin-right: 40px ;
-    font-size:14px ;
+    font-size:16px ;
     align-items:center;
 }
 `
@@ -33,7 +33,7 @@ const CustomButton = () => {
       <Wrapper>
           <LoginButton variant='contained'>Login</LoginButton>
           
-          <Typography style={{marginTop:3, width:135}}>Become a Seller</Typography>
+          <Typography style={{marginTop:3, width:145}}>Become a Seller</Typography>
           <Typography style={{marginTop:3}}>More</Typography>
 
           <Container>
