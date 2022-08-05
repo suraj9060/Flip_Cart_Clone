@@ -10,12 +10,7 @@ const USER = process.env.USER
 const PASS = process.env.PASSWORD
 connection(USER,PASS)
 
-// const API =
-//     `mongodb+srv://flipkart:flipkart@cluster0.p61jv8a.mongodb.net/?retryWrites=true&w=majority`;
-//      mongoose.connect(API , {useUnifiedTopology:true ,useNewUrlParser:true}).then(() => {
-//       console.log("data base is connected")
-      
-//   })
+
 
 
 
