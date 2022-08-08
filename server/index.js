@@ -5,6 +5,7 @@ const PORT = 8000
 const app = express()
 const connection = require("./dataBase/db.js")
 const cors = require("cors")
+const defaultData = require("./defaultData")
 dotenv.config()
 const USER = process.env.USER
 const PASS = process.env.PASSWORD
@@ -17,3 +18,5 @@ connection(USER,PASS)
 app.listen(PORT, () => {
     console.log(`post is running on ${PORT}`)
 })
+
+defaultData()
